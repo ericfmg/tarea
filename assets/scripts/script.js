@@ -188,7 +188,11 @@ let db = [
     <img src="${db[i].img}" class="w-100">
     </div>
     <p class="m-2 text-center">${auxiliar}</p>
-    </div> `)
+   <div class="text-center">
+    <button class="btn btn-primary m-4">Agregar al carrito</button>
+    </div>
+    </div> 
+    `)
   lista.appendChild(div)
   }
  
