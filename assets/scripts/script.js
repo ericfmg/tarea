@@ -176,7 +176,7 @@ let db = [
   let auxiliar=""
   for(let j=0;j<db[i].tags.length;j++){
 
-    auxiliar+=(`#${db[i].tags[j]}\n`)
+    auxiliar+=(`<a href="#"> #${db[i].tags[j]}</a>\n`)
   
   }
   
